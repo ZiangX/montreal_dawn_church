@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+@media (min-width: 768px) {
+	/* For screens larger than 768px (desktop) */
+	body {
+		font-size: 1.5rem;
+	}
+
+	.event-page-image-container {
+		height: 400px;
+	}
+
+	.image-container {
+		height: 400px;
+	}
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media (max-width: 768px) {
+	/* For screens less than 768px (desktop) */
+
+	.event-page-image-container {
+		height: auto;
+	}
+
+	.image-container {
+		height: 200px;
+	}
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.home-page-paragraph {
+	text-indent: 2em;
+	margin: 0;
+}
+
+#nav-link-custom {
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	/* border: 1px solid black; */
+	background-color: #fbe4d4;
+	color: black;
+	border-bottom: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 5px 30px;
+	margin-left: 10px;
+}
+
+#logo-text {
+	color: #ff9933;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	padding: 5px 30px;
+	margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+	/* For screens larger than 768px (desktop) */
+	#nav-link-custom {
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+		/* border: 1px solid black; */
+		background-color: #fbe4d4;
+		color: black;
+		border-bottom: none;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 5px 20px;
+		margin-left: 10px;
+	}
+}
+
+
+.event-info {
+	margin-bottom: 20px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  @media (min-width: 768px) {
+	.event-info {
+	  display: flex;
+	  flex-wrap: wrap;
+	}
+	.event-info h4 {
+	  flex: 1 0 50%;
+	  margin: 0;
+	}
+	.event-info p {
+	  flex: 1 0 50%;
+	  margin: 0;
+	}
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
