@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.184daa77.css",
-    "main.js": "/static/js/main.d0fd9e79.js",
-    "index.html": "/index.html",
-    "main.184daa77.css.map": "/static/css/main.184daa77.css.map",
-    "main.d0fd9e79.js.map": "/static/js/main.d0fd9e79.js.map"
+    "main.css": "/montreal_dawn_church/static/css/main.184daa77.css",
+    "main.js": "/montreal_dawn_church/static/js/main.d0fd9e79.js",
+    "index.html": "/montreal_dawn_church/index.html",
+    "main.184daa77.css.map": "/montreal_dawn_church/static/css/main.184daa77.css.map",
+    "main.d0fd9e79.js.map": "/montreal_dawn_church/static/js/main.d0fd9e79.js.map"
   },
   "entrypoints": [
     "static/css/main.184daa77.css",
