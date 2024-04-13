@@ -41,7 +41,7 @@ const EventPage = () => {
 
 						<div className='event-info'>
 							<h4>Zoom 祷告会 (Prayer Meeting):</h4>
-							<p>每周三 9：30 - 10：30 AM</p>
+							<p>每周三 14：00 - 15：00 AM</p>
 						</div>
 
 						<p>Zoom 会议ID: 242-207-065 密码:030730</p>
