@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Nav } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 
 const Layout = ({ children }) => {
 	return (
@@ -36,6 +36,7 @@ const Layout = ({ children }) => {
 					</Nav.Item>
 				</Nav>
 			</Container>
+			<Analytics />
 			{children}
 			<div style={{ backgroundColor: '#fbe4d4', height: '100px' }} className='my-5'></div>
 		</>
